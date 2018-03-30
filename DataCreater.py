@@ -2,6 +2,7 @@ from record import randromrecord as rr
 import time
 import os
 
+
 num = int(input('Please enter the number of records you want to create:'))
 
 timestamp = time.time()
