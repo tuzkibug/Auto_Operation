@@ -1,6 +1,7 @@
 import random as rd
 import time
 
+
 def CreateRandomIP():
     a = str(rd.randint(0, 255))
     b = str(rd.randint(0, 255))
