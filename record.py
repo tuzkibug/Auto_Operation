@@ -24,6 +24,7 @@ class randromrecord():
     def RandomSrcDevice(self):
         a = rd.choice(["NE40E", "NE5000E", "CE6850", "CE5300"])
         return a
+    
     def RandomDesIP(self):
         a = str(rd.randint(0, 255))
         b = str(rd.randint(0, 255))
